@@ -1,6 +1,110 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ConectaDados
+
+> ConectaDados é uma aplicação web de lista de tarefas (to-do list) desenvolvida em React, utilizando autenticação e banco de dados do Firebase. O objetivo é permitir que usuários criem uma conta, façam login e gerenciem suas tarefas de forma simples e segura.
+
+## Funcionalidades
+
+- Cadastro de novos usuários com e-mail e senha
+- Login de usuários autenticados
+- Logout seguro
+- Criação de tarefas associadas ao usuário logado
+- Interface responsiva e intuitiva
+
+## Tecnologias Utilizadas
+
+- [React](https://reactjs.org/)
+- [Firebase Authentication](https://firebase.google.com/docs/auth)
+- [Firebase Firestore](https://firebase.google.com/docs/firestore)
+- [React Router DOM](https://reactrouter.com/)
+
+## Estrutura do Projeto
+```├── public/
+│   ├── favicon.ico
+│   ├── index.html
+│   ├── logo192.png
+│   ├── logo512.png
+│   ├── manifest.json
+│   └── robots.txt
+├── src/
+│   ├── App.js
+│   ├── firebaseConnection.js
+│   ├── index.css
+│   ├── index.js
+│   ├── pages/
+│   │   ├── Admin/
+│   │   │   ├── admin.css
+│   │   │   └── index.js
+│   │   ├── Home/
+│   │   │   ├── home.css
+│   │   │   └── index.js
+│   │   └── Register/
+│   │       └── index.js
+│   └── routes/
+│       ├── index.js
+│       └── Private.js
+├── package.json
+└── README.md
+````
+
+## Como rodar o projeto
+
+1. **Clone o repositório:**
+
+   ```sh
+   git clone https://github.com/diatsilva007/ConectaDados.git
+   ```
+
+   1.1 **Entre na pasta do projeto:**
+
+   ```sh
+   cd ConectaDados
+   ```
+
+2. **Instale as dependências:**
+
+   ```sh
+   npm install
+   ```
+
+3. **Configure o Firebase:**
+
+   - Renomeie o arquivo `src/firebaseConnection.js.example` para `src/firebaseConnection.js` (caso exista).
+   - Insira suas credenciais do Firebase no arquivo `src/firebaseConnection.js`.
+
+4. **Inicie o projeto:**
+
+   ```sh
+   npm start
+   ```
+
+   O app estará disponível em [http://localhost:3000](http://localhost:3000).
+
+## Scripts Disponíveis
+
+- `npm start` — Inicia o servidor de desenvolvimento.
+- `npm run build` — Gera uma versão de produção na pasta `build`.
+- `npm test` — Executa os testes.
+- `npm run eject` — Remove a configuração padrão do Create React App.
+
+## Estrutura das Páginas
+
+- **Home:** Tela de login do usuário.
+- **Register:** Tela de cadastro de novo usuário.
+- **Admin:** Tela principal para gerenciamento das tarefas (acesso restrito a usuários autenticados).
+
+## Observações
+
+- O arquivo firebaseConnection.js está listado no .gitignore para evitar o versionamento de credenciais sensíveis.
+- Para utilizar o Firebase, crie um projeto em [https://console.firebase.google.com/](https://console.firebase.google.com/) e configure a autenticação por e-mail/senha e o Firestore.
+
+## Licença
+
+Este projeto está sob a licença MIT.
+
+Desenvolvido com 💙 por [Diogo](https://github.com/diatsilva007)
+
+---
 
 ## Available Scripts
 
