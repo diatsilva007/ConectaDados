@@ -102,8 +102,6 @@
 
 Este projeto está sob a licença MIT.
 
-Desenvolvido com 💙 por [Diogo](https://github.com/diatsilva007)
-
 ---
 
 ## Available Scripts
@@ -172,3 +170,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+<div align="center">
+  
+# Feito com 💙
+| [<img src="https://avatars.githubusercontent.com/u/143373573?v=4" width="100" height="100"><br><sub>Diogo Ataide</sub>](https://github.com/diatsilva007)
+| :---: |
+
+ <p><img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/></p>
+ 
+ # 🙅‍♂️
+ 
+ </div>
